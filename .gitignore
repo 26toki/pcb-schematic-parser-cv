@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+assets/
+weights/
+data/
+outputs/
+*.pt
+*.onnx
+*.zip
+*.whl
+.venv/
