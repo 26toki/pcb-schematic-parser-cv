@@ -1,0 +1,94 @@
+{
+  "scope": "Synthetic geometry module demo, not end-to-end detection or competition JSON",
+  "supplied_components": [
+    "R1",
+    "R2"
+  ],
+  "supplied_segments": [
+    {
+      "direction": "horizontal",
+      "axis": 100,
+      "start": 120,
+      "end": 270
+    },
+    {
+      "direction": "horizontal",
+      "axis": 200,
+      "start": 120,
+      "end": 270
+    },
+    {
+      "direction": "vertical",
+      "axis": 120,
+      "start": 100,
+      "end": 200
+    },
+    {
+      "direction": "horizontal",
+      "axis": 100,
+      "start": 370,
+      "end": 520
+    },
+    {
+      "direction": "horizontal",
+      "axis": 200,
+      "start": 370,
+      "end": 520
+    },
+    {
+      "direction": "vertical",
+      "axis": 520,
+      "start": 100,
+      "end": 200
+    }
+  ],
+  "computed_joins": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "nets": [
+    {
+      "id": "N1",
+      "segments": [
+        0,
+        1,
+        2
+      ],
+      "terminals": [
+        "R1.1",
+        "R2.1"
+      ]
+    },
+    {
+      "id": "N2",
+      "segments": [
+        3,
+        4,
+        5
+      ],
+      "terminals": [
+        "R1.2",
+        "R2.2"
+      ]
+    }
+  ],
+  "checks": {
+    "two_expected_nets": true,
+    "blank_gap_rejected": true,
+    "corner_contact_accepted": true
+  }
+}
